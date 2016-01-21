@@ -1,0 +1,119 @@
+#logo-container img {
+  width: 50px;
+  height: 50px;
+}
+.cursor {
+  display: inline-block;
+  height: 1em;
+  width: .5em;
+  vertical-align: middle;
+  -webkit-animation: 1s cursor-blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s cursor-blink step-end infinite;
+  -o-animation: 1s cursor-blink step-end infinite;
+  animation: 1s cursor-blink step-end infinite;
+}
+@keyframes cursor-blink {
+  from,to {
+    background: transparent;
+  }
+  50% {
+    background: #FC9639;
+  }
+}
+
+@-moz-keyframes cursor-blink {
+  from,to {
+    background: transparent;
+  }
+  50% {
+    background: #FC9639;
+  }
+}
+
+@-webkit-keyframes cursor-blink {
+  from,to {
+    background: transparent;
+  }
+  50% {
+    background: #FC9639;
+  }
+}
+
+@-ms-keyframes cursor-blink {
+  from,to {
+    background: transparent;
+  }
+  50% {
+    background: #FC9639;
+  }
+}
+
+@-o-keyframes cursor-blink {
+  from,to {
+    background: transparent;
+  }
+  50% {
+    background: #FC9639;
+  }
+}
+.hero {
+  max-height: 380px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url('http://p1.pichost.me/i/52/1753078.jpg');
+  overflow: hidden;
+}
+.editor-window {
+  background-color: #D6D6D6;
+  box-shadow: 0px 0px 35px 4px rgba(0,0,0,0.1);
+  text-align: left;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin: 0px auto;
+}
+.editor-menu {
+  background-color: #1E1E1E;
+}
+.editor-menu div {
+  padding: 0px !important;
+}
+.circle {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+}
+
+/*Tabs*/
+.dev-tabs {
+  width: auto;
+  background-color: #343434;
+}
+.dev-links {
+  margin: 0px;
+}
+.dev-links li {
+  display: inline-block;
+}
+
+.ide-menu div {
+  padding: 0px 0px;
+}
+p.code {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+p.code.inner {
+  padding-left: 10px;
+}
+p.code:first-child {
+  margin-top: 15px;
+}
+p.code:last-child {
+  margin-bottom: 15px;
+}
