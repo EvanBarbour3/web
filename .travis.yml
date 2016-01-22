@@ -12,7 +12,7 @@ eng:
 sudo: false
 
 install:
-  - if [[ $build = 'normal']]; then travis_retry composer install -no-interaction --prefer-source; fi
+  - if [[ $build = 'normal']]; then travis_retry composer install --no-interaction --prefer-source; fi
 
 script: vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
 
