@@ -36,7 +36,7 @@
         </div>
     </nav>
 </header>
-<body id="body" class="hero" style="background-image: url({{asset('/image/hero.jpg')}});">
+<body>
     @yield('content')
 </body>
 <footer class="page-footer grey darken-4">
