@@ -1,8 +1,20 @@
-<?php namespace App\Http\Controllers;
+<?php
 
-class GoogleController extends Controller {
+namespace App\Http\Controllers;
 
-    public function GoogleVerification()
+/**
+ * Google Controller
+ *
+ * @author EB
+ * @package App\Http\Controllers
+ */
+class GoogleController extends Controller
+{
+    /**
+     * @author EB
+     * @return \Illuminate\View\View
+     */
+    public function googleVerification()
     {
         return view('GoogleVerification');
     }
