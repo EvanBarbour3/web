@@ -11,17 +11,7 @@
 |
 */
 
-Route::get('/', array('uses' => 'BarbourController@main'));
-
-//NO DONT DO IT OK
-//Route::get('/{page}', array('uses' => 'BarbourController@index', 'page' => 'home'));
-
+Route::get('/', 'BarbourController@main');
 Route::get('about', 'BarbourController@about');
 
 Route::get('googlef7f5143c8a3bc758.html','GoogleController@GoogleVerification');
-
-Route::controllers([
-	'Barbour' => 'BarbourController',
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
