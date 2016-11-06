@@ -14,4 +14,4 @@
 Route::get('/', 'BarbourController@main');
 Route::get('about', 'BarbourController@about');
 
-Route::get('googlef7f5143c8a3bc758.html','GoogleController@GoogleVerification');
+Route::get('googlef7f5143c8a3bc758.html','GoogleController@googleVerification');
