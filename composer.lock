@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b5a39c04da053cca0aebcc9dada0d88e",
-    "content-hash": "a58f40ef17aee7ff8d4d149e4fedd96e",
+    "hash": "bc9e8807f1d54d13df430dafd5e04bb5",
+    "content-hash": "9034936be2a2227d24d2a6d1547f45ec",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1206,6 +1206,53 @@
                 "php"
             ],
             "time": "2015-01-18 11:29:59"
+        },
+        {
+            "name": "paybreak/foundation",
+            "version": "0.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PayBreak/foundation.git",
+                "reference": "8bd22916b908b7f88ce5275f217688c6f52c6366"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PayBreak/foundation/zipball/8bd22916b908b7f88ce5275f217688c6f52c6366",
+                "reference": "8bd22916b908b7f88ce5275f217688c6f52c6366",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PayBreak\\Foundation\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PayBreak",
+                    "email": "dev@paybreak.com",
+                    "homepage": "https://github.com/PayBreak",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Foundation Library",
+            "homepage": "https://github.com/PayBreak/foundation",
+            "keywords": [
+                "foundation"
+            ],
+            "time": "2016-08-11 13:24:01"
         },
         {
             "name": "psr/http-message",

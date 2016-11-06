@@ -6,7 +6,8 @@
 	"type": "project",
 	"require": {
 		"laravel/framework": "5.0.*",
-		"crewlabs/unsplash": "^2.2"
+		"crewlabs/unsplash": "^2.2",
+		"paybreak/foundation": "^0.13.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
