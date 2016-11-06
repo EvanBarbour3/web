@@ -16,5 +16,15 @@ main {
 }
 .hero-text {
     font-weight: 900 !important;
+}
+.text-shadow {
     text-shadow: 2px 2px black;
+}
+.image-credit {
+    bottom: -54px;
+    right: 11px;
+    position: absolute;
+}
+footer {
+    margin-top: 0px !important;
 }
