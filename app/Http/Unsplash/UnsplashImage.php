@@ -45,7 +45,7 @@ class UnsplashImage extends AbstractEntity
             'id' => $photo->id,
             'image_full' => $photo->urls['full'],
             'image_regular' => $photo->urls['regular'],
-            'user_name' => $photo->user['username'],
+            'user_name' => $photo->user['name'],
             'user_url' => $photo->user['links']['html'],
             'user_image' => $photo->user['profile_image']['medium'],
         ];
