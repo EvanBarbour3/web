@@ -1,6 +1,6 @@
 @extends('skeleton')
 @section('content')
-<main class="red darken-2 hero" style="background-image: url({{isset($unsplash) ? '"' . $unsplash->getImageFull() . '"' : "/image/hero.jpg"}})">
+<main class="grey darken-2 hero" style="background-image: url({{isset($unsplash) ? '"' . $unsplash->getImageFull() . '"' : "/image/hero.jpg"}})">
     <div class="container">
         <div class="row">
             <div class="valign-wrapper hero-wrapper">

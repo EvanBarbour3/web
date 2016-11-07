@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Evan Barbour">
-    <meta name="description" content="Evan Barbour - Junior Software Developer">
+    <meta name="description" content="Evan Barbour, Software Engineer based in Manchester">
     <meta name="keywords" content="Evan Barbour, PHP, Laravel, JQuery, JavaScript, HTML, CSS, agile, scrum, software development, artisan">
     <link rel="icon" href="{{asset('/image/logo.png')}}" type="image/png" sizes="16x16">
-	<title>Evan Barbour - Junior Software Developer</title>
+	<title>Evan Barbour - Software Engineer</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Materialize -->
