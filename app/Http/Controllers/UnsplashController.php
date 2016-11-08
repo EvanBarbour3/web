@@ -25,7 +25,7 @@ class UnsplashController extends Controller
         try {
             return UnsplashImage::make(
                 UnsplashImage::getComponentsFromPhoto(
-                    Photo::random(['featured' => true, 'orientation' => 'landscape', 'query' => 'laptop'])
+                    Photo::random(['featured' => true, 'orientation' => 'landscape', 'query' => 'laptop,mac,computer'])
                 )
             );
         } catch (Exception $e) {
